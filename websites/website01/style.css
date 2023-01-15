@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: none;
+    background: none;
+    color: #93a6aa;
+    font-size: 12px;
+    font-weight: normal;
+    height: 28px;
+}
+
+
+.navTop{
+    display: flex;
+    width: 100vw;
+    background-color: #1b233c;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_ImageLogo{
+    width: 65px;
+    position: absolute;
+    background-color: white;
+    border-radius: 50% 50%;
+    margin: 20px 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+}
+
+#nav_ImageLogoText{
+    height: 40px;
+    margin: 25px 130px;
+}
+
+#nav_Search{
+    border: 1px solid #7A7A7A;
+    border-radius: 14px;
+    padding-left: 10px;
+    width: 220px;
+    padding-right: 28px;
+    margin-right: 28px;
+}
+
+#nav_SearchSubmit{
+    width: 28px;
+    right: 36px;
+    position: absolute;
+    background: url(images/btn-search-bg.png) no-repeat center center;
+    text-indent: 28px;
+}
+
+.navBot{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav_Text{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: #2E396C;
+
+}
+
+.navBot>.nav_Text>a{
+    font-size: 14px;
+    padding: 0 15px;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #427dda;
+}
+
+.DropdownArrow{
+    display: inline-block;
+}
+
+#cornerLeft{
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 70px;
+    margin-left: -30px;
+    height: 50px;
+    image-rendering:optimizeQuality;
+}
+
+#cornerRight{
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: -30px;
+    margin-left: 70px;
+    height: 50px;
+    image-rendering:optimizeQuality;
+}
+
+.mainUp{
+    background-image: url(images/header-home-bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    margin-top: -10vh;
+}
