@@ -10,17 +10,20 @@
 </head>
 <body>
     <nav>
-        <img id="nav_ImageLogo" src="images/logo.png"  alt="logo">
         <div class="navTop">
-            <img id="nav_ImageLogoText" src="images/logo-text.png"  alt="logo-text">
+            <div class="nav_Logo">
+                <img id="nav_ImageLogo" src="images/logo.png"  alt="logo">
+                <img id="nav_ImageLogoText" src="images/logo-text.png"  alt="logo-text">
+            </div> 
             <div classw="nav_SearchClass">
                 <input id="nav_Search" type="search" placeholder="Search ...">
                 <input id="nav_SearchSubmit" type="submit">
             </div>
         </div>
         <div class="navBot">
-            <img id="cornerLeft" src="images/nav-corner-left.png" alt="nav-corner-left">
+            <a id="nav_background"></a>
             <div class="nav_Text">
+                <img id="cornerLeft" src="images/nav-corner-left.png" alt="nav-corner-left">
                 <a>Home<span class="DropdownArrow"></a>
                     <a>About<span class="DropdownArrow"></a>
                     <a>Download<span class="DropdownArrow"></a>
@@ -28,12 +31,19 @@
                     <a>Contact<span class="DropdownArrow"></a>
                     <a>Get Involved<span class="DropdownArrow"></a>
                     <a>Copyright</a>
+                    <img id="cornerRight" src="images/nav-corner-right.png" alt="nav-corner-right">
             </div>
-            <img id="cornerRight" src="images/nav-corner-right.png" alt="nav-corner-right">
         </div>
     </nav>
     <div class="mainUp">
-
+        <div class="main_left">
+            <p id="main_textTop">Free, open source, cross-platform audio software</p>
+            <p id="main_textBottom">Audacity is an easy-to-use, multi-track audio editor and recorder for Windows, macOS, GNU/Linux and other operating systems.
+                Audacity is free, open source software.</p>
+        </div>
+        <div class="main_right">
+            <img src="images/Theme_Dark.png" >
+        </div>
     </div>
     <div class="mainDown">
         
