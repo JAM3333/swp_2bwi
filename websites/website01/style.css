@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+
+input[type="search"]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     color: white;
@@ -29,10 +34,13 @@ input {
     align-items: center;
     justify-content: space-around;
     background-color: #1b233c;
+    border-bottom: 1px solid #ffffff34 ;
     z-index: 2;
 }
 
-
+.nav_Logo{
+    margin-left: 12vw;
+}
 
 #nav_ImageLogo{
     width: 65px;
@@ -50,11 +58,11 @@ input {
     height: 40px;
     margin: 20px 130px;
     cursor: pointer;
+    margin-right: 10vw;
 }
 
-#nav_SearchClass{
-    display: flex;
-    flex-wrap: nowrap;
+.nav_SearchClass{
+    margin-right: 12vw;
 }
 
 
@@ -67,8 +75,10 @@ input {
 
 #nav_SearchSubmit{
     width: 28px;
+    position: absolute;
     background: url(images/btn-search-bg.png) no-repeat center center;
     text-indent: 28px;
+    margin-left: -30px;
 }
 
 .navBot{
@@ -86,7 +96,8 @@ input {
     width: 100vw;
     height: 20px;
     z-index: 0;
-    background-color: #2E396C;
+    background-color: #303b70;
+    box-shadow: 0px 4px 50px 60px rgba(0, 0, 0, 0.2);
 }
 
 .nav_Text{
@@ -99,17 +110,18 @@ input {
 .nav_Text>a{
     font-size: 14px;
     padding: 20px 15px;
-    background-color: #2E396C;
+    background-color: #303b70;
     transform: 0.1s;
+    cursor: pointer;
 }
 
 .nav_Text>a:nth-child(2){
-    padding-left: 10vw;
+    padding-left: 6vw;
     color: yellow;
 }
 
 .nav_Text>a:nth-child(8){
-    padding-right: 10vw;
+    padding-right: 14vw;
 }
 
 a:hover {
@@ -119,6 +131,7 @@ a:hover {
 
 .DropdownArrow{
     display: inline-block;
+    caret: #ff7a18 underscore;
 }
 
 #cornerLeft{
@@ -137,7 +150,7 @@ a:hover {
     background-image: url(images/header-home-bg.jpg);
     z-index: -2;
     width: 100vw;
-    height: 100vh;
+    height: 65vh;
     margin-top: -10vh;
     display: flex;
     align-items: center;
@@ -168,3 +181,8 @@ a:hover {
     height: 10%;
 }
 
+.mainDown{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(255, 255, 255);
+}
