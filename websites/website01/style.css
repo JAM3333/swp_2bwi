@@ -211,9 +211,15 @@ a:hover {
 
 .mainDown{
     width: 100vw;
-    height: 90vh;
-    outline: rgba(0, 93, 199, 0.342) 2vh solid;
+    height: 65vh;
     background-color: rgb(246, 246, 246);
+}
+
+.outline{
+    height: 2vh;
+    margin-top: -2vh;
+    width: 100vw;
+    background-color: rgba(0, 93, 199, 0.342);
 }
 
 .mainDown_up{
@@ -441,4 +447,15 @@ a:hover {
     font-weight: 100;
     margin-bottom: 2vh;
     color: rgb(91, 112, 206);
+}
+
+
+.bottom{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b233c;;
 }
