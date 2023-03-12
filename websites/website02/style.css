@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: rgb(40, 40, 58);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.background>img{
+    position: fixed;
+    min-width: 100vw;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+}
+
+.icon>img{
+    position: absolute;
+    z-index: 2;
+    border-radius: 100rem;
+    outline: rgb(255, 255, 255) solid 1em;
+    width: 20vmin;
+    margin-left: 5vw;
+    margin-top: -10em;
+}
+
+.main{
+    display: flex;
+    justify-content:start;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;  
+    margin-top: 70vh;
+}
+
+.main01{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+}
+
+
+.wave {
+    left: 0;
+    width: 100%;
+    margin-top: -34.9vh;
+    line-height: 0;
+}
+
+.wave svg {
+    width: calc(249% + 1.3px);
+    height: 35vh;
+    transform: rotateY(180deg) rotateX(180deg);
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
