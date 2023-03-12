@@ -211,9 +211,15 @@ a:hover {
 
 .mainDown{
     width: 100vw;
-    height: 90vh;
-    outline: rgba(0, 93, 199, 0.342) 2vh solid;
+    height: 66vh;
     background-color: rgb(246, 246, 246);
+}
+
+.outline{
+    height: 2vh;
+    margin-top: -2vh;
+    width: 100vw;
+    background-color: rgba(0, 93, 199, 0.342);
 }
 
 .mainDown_up{
@@ -300,7 +306,7 @@ a:hover {
     justify-content: center;
     width: 70vw;
     margin-left: 15vw;
-    height: 46vh;
+    height: 47.5vh;
 }
 
 .mainDown_left{
@@ -441,4 +447,74 @@ a:hover {
     font-weight: 100;
     margin-bottom: 2vh;
     color: rgb(91, 112, 206);
+}
+
+
+.bottom{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b233c;;
+}
+
+#bottomHeader{
+    margin-top: 7vh;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #cbd6d8;
+}
+
+.bottomUp{
+    display: flex;
+    width: 65vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6vh 0vh;
+}
+
+.feature{
+    padding: 5px 5px;
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    height: 43vh;
+}
+
+.feature>h1{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #cbd6d8;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
+}
+
+.feature>p{
+    text-align: center;
+    line-height: 1.5;
+    color: #cbd6d8;
+}
+
+.feature>img:hover{
+    transform:translateY(-5px);
+}
+
+#bottomBtn{
+    background-color: #f4b757;
+    color: #b06505;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 45rem;
+    padding: 6px 25px;
+    margin: -2vh 0vw 5vh 0vw;
+    text-transform: uppercase;
+
 }
